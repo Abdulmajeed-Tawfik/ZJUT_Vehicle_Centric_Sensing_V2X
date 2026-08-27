@@ -11,7 +11,7 @@
 # This script compares bridge vertical acceleration responses at TWO
 # selected bridge measurement locations.
 #
-# It automatically generates THREE figures:
+# It automatically generates THREE figures:py
 #
 #   Figure 1 - Full Acceleration Time History
 #   Figure 2 - Bridge-Crossing Acceleration (Zoomed View)
@@ -53,8 +53,8 @@ from scipy.signal.windows import hann
 # Select TWO different bridge measurement locations.
 # Available locations: 0, 1, 2, ..., 15 m
 
-X1 = 5          # First bridge measurement location [m]
-X2 = 7          # Second bridge measurement location [m]
+X1 = 7          # First bridge measurement location [m]
+X2 = 9          # Second bridge measurement location [m]
 
 
 # ============================================================================
